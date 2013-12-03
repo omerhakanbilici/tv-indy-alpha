@@ -17,13 +17,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    //todo credentials must be from db or social api
+    credentialsDictionary = [[NSDictionary alloc] initWithObjects:[NSArray arrayWithObjects:@"0000", @"", nil] forKeys:[NSArray arrayWithObjects:@"hakan", @"", nil]];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction) enterCredentials {
+    
+    if ([[credentialsDictionary objectForKey:usernameField.text]isEqualToString:passwordField.text]) {
+        NSLog(@"Authorization Success!");
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Correct Password" message:@"Password is correct." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        [alert show];
+    }
+    else {
+        NSLog(@"Authorization Failed!");
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Incorrect Password" message:@"Password is incorrect." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        [alert show];
+    }
+    
+    
 }
 
 @end
