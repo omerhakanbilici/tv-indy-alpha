@@ -31,6 +31,9 @@
 		EB65945A184D5229008CAFA5 /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = EB659459184D5229008CAFA5 /* iphone5.png */; };
 		EB65945F184D5339008CAFA5 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65945D184D5339008CAFA5 /* Icon-58.png */; };
 		EB659460184D5339008CAFA5 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65945E184D5339008CAFA5 /* Icon-80.png */; };
+		EB659462184DD3FA008CAFA5 /* aquabar.png in Resources */ = {isa = PBXBuildFile; fileRef = EB659461184DD3FA008CAFA5 /* aquabar.png */; };
+		EB659464184DDA91008CAFA5 /* Fringe-POSTER.png in Resources */ = {isa = PBXBuildFile; fileRef = EB659463184DDA91008CAFA5 /* Fringe-POSTER.png */; };
+		EB659467184E3309008CAFA5 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB659466184E3309008CAFA5 /* TimelineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,10 @@
 		EB659459184D5229008CAFA5 /* iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone5.png; sourceTree = "<group>"; };
 		EB65945D184D5339008CAFA5 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
 		EB65945E184D5339008CAFA5 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		EB659461184DD3FA008CAFA5 /* aquabar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquabar.png; sourceTree = "<group>"; };
+		EB659463184DDA91008CAFA5 /* Fringe-POSTER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fringe-POSTER.png"; sourceTree = "<group>"; };
+		EB659465184E3309008CAFA5 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		EB659466184E3309008CAFA5 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +147,8 @@
 				EB65942B184D4F8E008CAFA5 /* ViewController.m */,
 				EB65942D184D4F8E008CAFA5 /* Images.xcassets */,
 				EB65941C184D4F8E008CAFA5 /* Supporting Files */,
+				EB659465184E3309008CAFA5 /* TimelineViewController.h */,
+				EB659466184E3309008CAFA5 /* TimelineViewController.m */,
 			);
 			path = "TV-INDY-Alpha";
 			sourceTree = "<group>";
@@ -176,6 +185,8 @@
 		EB65944A184D5058008CAFA5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EB659463184DDA91008CAFA5 /* Fringe-POSTER.png */,
+				EB659461184DD3FA008CAFA5 /* aquabar.png */,
 				EB65945D184D5339008CAFA5 /* Icon-58.png */,
 				EB65945E184D5339008CAFA5 /* Icon-80.png */,
 				EB659459184D5229008CAFA5 /* iphone5.png */,
@@ -278,6 +289,8 @@
 				EB65945A184D5229008CAFA5 /* iphone5.png in Resources */,
 				EB659429184D4F8E008CAFA5 /* Main.storyboard in Resources */,
 				EB659453184D5058008CAFA5 /* Default.png in Resources */,
+				EB659464184DDA91008CAFA5 /* Fringe-POSTER.png in Resources */,
+				EB659462184DD3FA008CAFA5 /* aquabar.png in Resources */,
 				EB659455184D5058008CAFA5 /* Defaultold.png in Resources */,
 				EB659457184D5058008CAFA5 /* pegasus.png in Resources */,
 			);
@@ -299,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB65942C184D4F8E008CAFA5 /* ViewController.m in Sources */,
+				EB659467184E3309008CAFA5 /* TimelineViewController.m in Sources */,
 				EB659426184D4F8E008CAFA5 /* AppDelegate.m in Sources */,
 				EB659422184D4F8E008CAFA5 /* main.m in Sources */,
 			);
