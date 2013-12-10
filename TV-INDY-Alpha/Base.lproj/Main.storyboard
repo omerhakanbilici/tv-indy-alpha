@@ -20,25 +20,25 @@
                                 <rect key="frame" x="-30" y="-95" width="400" height="700"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.79999999999999982" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uo7-uU-4XX">
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.89999999999999991" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uo7-uU-4XX">
                                 <rect key="frame" x="0.0" y="20" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.011764707043766975" green="0.76470595598220825" blue="0.88627457618713379" alpha="1" colorSpace="deviceRGB"/>
                                 <color key="tintColor" red="0.011764707040000001" green="0.76470595600000002" blue="0.88627457620000005" alpha="1" colorSpace="deviceRGB"/>
                             </imageView>
-                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GX3-75-kJO">
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GX3-75-kJO">
                                 <rect key="frame" x="0.0" y="283" width="320" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.011764707040000001" green="0.76470595600000002" blue="0.88627457620000005" alpha="1" colorSpace="deviceRGB"/>
                                 <color key="tintColor" red="0.011764707040000001" green="0.76470595600000002" blue="0.88627457620000005" alpha="1" colorSpace="deviceRGB"/>
                             </imageView>
-                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IOe-2s-lM5">
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IOe-2s-lM5">
                                 <rect key="frame" x="0.0" y="321" width="320" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.011764707040000001" green="0.76470595600000002" blue="0.88627457620000005" alpha="1" colorSpace="deviceRGB"/>
                                 <color key="tintColor" red="0.011764707040000001" green="0.76470595600000002" blue="0.88627457620000005" alpha="1" colorSpace="deviceRGB"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FBT-t8-YEW">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hakan" borderStyle="roundedRect" placeholder="username" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="FBT-t8-YEW">
                                 <rect key="frame" x="58" y="178" width="204" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dmN-sd-klI">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0000" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="dmN-sd-klI">
                                 <rect key="frame" x="58" y="245" width="204" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -181,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="1148" y="-835"/>
         </scene>
-        <!--Table View Controller - Shows-->
+        <!--Shows View Controller - Shows-->
         <scene sceneID="tox-eJ-NTQ">
             <objects>
-                <tableViewController id="mn8-of-sIr" sceneMemberID="viewController">
+                <tableViewController id="mn8-of-sIr" customClass="ShowsViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bKx-zb-V42">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -698,6 +698,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="neZ-Xz-Yrs"/>
+        <segue reference="5X9-k7-PLs"/>
     </inferredMetricsTieBreakers>
 </document>
