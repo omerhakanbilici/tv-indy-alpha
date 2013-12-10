@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TimelineViewController.h"
 
 @interface ViewController : UIViewController {
     
@@ -17,6 +16,7 @@
     NSDictionary *credentialsDictionary;
 }
 
-- (IBAction) enterCredentials;
+//- (IBAction) enterCredentials;
+- (IBAction)loginClicked:(id)sender;
 
 @end

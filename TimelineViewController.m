@@ -2,7 +2,7 @@
 //  TimelineViewController.m
 //  TV-INDY-Alpha
 //
-//  Created by Ömer Hakan Bilici on 3.12.2013.
+//  Created by Ömer Hakan Bilici on 8.12.2013.
 //  Copyright (c) 2013 Ömer Hakan Bilici. All rights reserved.
 //
 
@@ -26,13 +26,46 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
+    // Enabled monitoring of the sensor
+    UIDevice *device = [UIDevice currentDevice];
+    device.proximityMonitoringEnabled = YES;
+    
+    if (device.proximityMonitoringEnabled==YES) {
+        NSLog(@"Proximity Monitoring Enabled.");
+        
+        // Proximity Sensor Notification
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(proximityChanged:) name:@"UIDeviceProximityStateDidChangeNotification"
+                                                   object:device];
+    }
+    else NSLog(@"Proximity Monitoring Not-Enabled.");
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
- 
+    
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSLog(@"hop");
 }
+
+//Can't work with simulator. Poor man's developer.
+- (void) proximityChanged:(NSNotification *)notification {
+	
+    UIDevice *currentDevice = [notification object];
+	NSLog(@"In proximity: %i", currentDevice.proximityState);
+    
+    if (currentDevice.proximityState == YES) {
+        NSLog(@"Device is close to user. Starting user favorite show check-in.");
+        [self performSegueWithIdentifier:@"CheckInSegue" sender:self];
+    }
+    else {
+        NSLog(@"Device is not closer to user.");
+    }
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -64,6 +97,12 @@
     // Configure the cell...
     
     return cell;
+}
+
+- (IBAction) performCheckIn:(id)sender {
+    
+    [self performSegueWithIdentifier:@"CheckInSegue" sender:self];
+    
 }
 
 /*

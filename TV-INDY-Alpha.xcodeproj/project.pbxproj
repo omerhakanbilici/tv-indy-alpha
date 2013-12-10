@@ -33,7 +33,9 @@
 		EB659460184D5339008CAFA5 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65945E184D5339008CAFA5 /* Icon-80.png */; };
 		EB659462184DD3FA008CAFA5 /* aquabar.png in Resources */ = {isa = PBXBuildFile; fileRef = EB659461184DD3FA008CAFA5 /* aquabar.png */; };
 		EB659464184DDA91008CAFA5 /* Fringe-POSTER.png in Resources */ = {isa = PBXBuildFile; fileRef = EB659463184DDA91008CAFA5 /* Fringe-POSTER.png */; };
-		EB659467184E3309008CAFA5 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB659466184E3309008CAFA5 /* TimelineViewController.m */; };
+		EB8454DD1853E572001FFAC5 /* ShowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8454DC1853E572001FFAC5 /* ShowsViewController.m */; };
+		EB8454E01853EDE4001FFAC5 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8454DF1853EDE4001FFAC5 /* TimelineViewController.m */; };
+		EBAAF32D1854ACF500E15E12 /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAAF32C1854ACF500E15E12 /* CheckInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +80,12 @@
 		EB65945E184D5339008CAFA5 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
 		EB659461184DD3FA008CAFA5 /* aquabar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquabar.png; sourceTree = "<group>"; };
 		EB659463184DDA91008CAFA5 /* Fringe-POSTER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fringe-POSTER.png"; sourceTree = "<group>"; };
-		EB659465184E3309008CAFA5 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
-		EB659466184E3309008CAFA5 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		EB8454DB1853E572001FFAC5 /* ShowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowsViewController.h; path = ../ShowsViewController.h; sourceTree = "<group>"; };
+		EB8454DC1853E572001FFAC5 /* ShowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowsViewController.m; path = ../ShowsViewController.m; sourceTree = "<group>"; };
+		EB8454DE1853EDE4001FFAC5 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimelineViewController.h; path = ../TimelineViewController.h; sourceTree = "<group>"; };
+		EB8454DF1853EDE4001FFAC5 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimelineViewController.m; path = ../TimelineViewController.m; sourceTree = "<group>"; };
+		EBAAF32B1854ACF500E15E12 /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckInViewController.h; path = ../CheckInViewController.h; sourceTree = "<group>"; };
+		EBAAF32C1854ACF500E15E12 /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckInViewController.m; path = ../CheckInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +151,14 @@
 				EB659427184D4F8E008CAFA5 /* Main.storyboard */,
 				EB65942A184D4F8E008CAFA5 /* ViewController.h */,
 				EB65942B184D4F8E008CAFA5 /* ViewController.m */,
+				EB8454DE1853EDE4001FFAC5 /* TimelineViewController.h */,
+				EB8454DF1853EDE4001FFAC5 /* TimelineViewController.m */,
+				EB8454DB1853E572001FFAC5 /* ShowsViewController.h */,
+				EB8454DC1853E572001FFAC5 /* ShowsViewController.m */,
+				EBAAF32B1854ACF500E15E12 /* CheckInViewController.h */,
+				EBAAF32C1854ACF500E15E12 /* CheckInViewController.m */,
 				EB65942D184D4F8E008CAFA5 /* Images.xcassets */,
 				EB65941C184D4F8E008CAFA5 /* Supporting Files */,
-				EB659465184E3309008CAFA5 /* TimelineViewController.h */,
-				EB659466184E3309008CAFA5 /* TimelineViewController.m */,
 			);
 			path = "TV-INDY-Alpha";
 			sourceTree = "<group>";
@@ -312,9 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB65942C184D4F8E008CAFA5 /* ViewController.m in Sources */,
-				EB659467184E3309008CAFA5 /* TimelineViewController.m in Sources */,
 				EB659426184D4F8E008CAFA5 /* AppDelegate.m in Sources */,
 				EB659422184D4F8E008CAFA5 /* main.m in Sources */,
+				EB8454DD1853E572001FFAC5 /* ShowsViewController.m in Sources */,
+				EBAAF32D1854ACF500E15E12 /* CheckInViewController.m in Sources */,
+				EB8454E01853EDE4001FFAC5 /* TimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
