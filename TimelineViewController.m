@@ -54,7 +54,7 @@
         [self performSegueWithIdentifier:@"CheckInSegue" sender:self];
     }
     else {
-        NSLog(@"Device is not closer to user.");
+        NSLog(@"Device is not close to user.");
     }
     
 }
