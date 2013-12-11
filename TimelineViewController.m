@@ -39,7 +39,7 @@
                                                  selector:@selector(proximityChanged:) name:@"UIDeviceProximityStateDidChangeNotification"
                                                    object:device];
     }
-    else NSLog(@"Proximity Monitoring Not-Enabled.");
+    else NSLog(@"Proximity Monitoring Not-Enabled!");
     
 }
 
