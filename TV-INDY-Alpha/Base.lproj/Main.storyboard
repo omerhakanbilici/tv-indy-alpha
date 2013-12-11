@@ -181,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="1148" y="-835"/>
         </scene>
-        <!--Shows View Controller - Shows-->
+        <!--Table View Controller - Shows-->
         <scene sceneID="tox-eJ-NTQ">
             <objects>
-                <tableViewController id="mn8-of-sIr" customClass="ShowsViewController" sceneMemberID="viewController">
+                <tableViewController id="mn8-of-sIr" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bKx-zb-V42">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -698,6 +698,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="5X9-k7-PLs"/>
+        <segue reference="Yee-xW-MGe"/>
     </inferredMetricsTieBreakers>
 </document>
