@@ -50,7 +50,7 @@
 	NSLog(@"In proximity: %i", currentDevice.proximityState);
     
     if (currentDevice.proximityState == YES) {
-    	// Enabled monitoring of the sensor
+    	// Disabled monitoring of the sensor
     	UIDevice *device = [UIDevice currentDevice];
     	device.proximityMonitoringEnabled = NO;
         NSLog(@"Device is close to user. Starting user favorite show check-in.");
