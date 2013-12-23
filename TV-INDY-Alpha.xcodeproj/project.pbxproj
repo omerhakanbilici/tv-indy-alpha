@@ -33,6 +33,10 @@
 		EB65943F184D4F8E008CAFA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB65943D184D4F8E008CAFA5 /* InfoPlist.strings */; };
 		EB659441184D4F8E008CAFA5 /* TV_INDY_AlphaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB659440184D4F8E008CAFA5 /* TV_INDY_AlphaTests.m */; };
 		EB8454E01853EDE4001FFAC5 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8454DF1853EDE4001FFAC5 /* TimelineViewController.m */; };
+		EB85D80F1868E1CE008F43BF /* logo-invert.png in Resources */ = {isa = PBXBuildFile; fileRef = EB85D80D1868E1CE008F43BF /* logo-invert.png */; };
+		EB85D8101868E1CE008F43BF /* logo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EB85D80E1868E1CE008F43BF /* logo.JPG */; };
+		EB85D8121868E246008F43BF /* logo-nano.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EB85D8111868E246008F43BF /* logo-nano.JPG */; };
+		EB85D8141868E3AB008F43BF /* profile_eren_kiraz.png in Resources */ = {isa = PBXBuildFile; fileRef = EB85D8131868E3AB008F43BF /* profile_eren_kiraz.png */; };
 		EBA5584718585ADF00EB1CA3 /* AppIconFeather.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5583918585ADF00EB1CA3 /* AppIconFeather.png */; };
 		EBA5584818585ADF00EB1CA3 /* aquabar.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5583A18585ADF00EB1CA3 /* aquabar.png */; };
 		EBA5584918585ADF00EB1CA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5583B18585ADF00EB1CA3 /* Default.png */; };
@@ -94,6 +98,10 @@
 		EB659440184D4F8E008CAFA5 /* TV_INDY_AlphaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV_INDY_AlphaTests.m; sourceTree = "<group>"; };
 		EB8454DE1853EDE4001FFAC5 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimelineViewController.h; path = ../TimelineViewController.h; sourceTree = "<group>"; };
 		EB8454DF1853EDE4001FFAC5 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimelineViewController.m; path = ../TimelineViewController.m; sourceTree = "<group>"; };
+		EB85D80D1868E1CE008F43BF /* logo-invert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-invert.png"; sourceTree = "<group>"; };
+		EB85D80E1868E1CE008F43BF /* logo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.JPG; sourceTree = "<group>"; };
+		EB85D8111868E246008F43BF /* logo-nano.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-nano.JPG"; sourceTree = "<group>"; };
+		EB85D8131868E3AB008F43BF /* profile_eren_kiraz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_eren_kiraz.png; sourceTree = "<group>"; };
 		EBA5583918585ADF00EB1CA3 /* AppIconFeather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconFeather.png; sourceTree = "<group>"; };
 		EBA5583A18585ADF00EB1CA3 /* aquabar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquabar.png; sourceTree = "<group>"; };
 		EBA5583B18585ADF00EB1CA3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -239,6 +247,10 @@
 		EBA5583818585ADF00EB1CA3 /* tvindu-images */ = {
 			isa = PBXGroup;
 			children = (
+				EB85D8131868E3AB008F43BF /* profile_eren_kiraz.png */,
+				EB85D8111868E246008F43BF /* logo-nano.JPG */,
+				EB85D80D1868E1CE008F43BF /* logo-invert.png */,
+				EB85D80E1868E1CE008F43BF /* logo.JPG */,
 				EBA5583918585ADF00EB1CA3 /* AppIconFeather.png */,
 				EBA5583A18585ADF00EB1CA3 /* aquabar.png */,
 				EBA5583B18585ADF00EB1CA3 /* Default.png */,
@@ -339,6 +351,8 @@
 				EBA5584918585ADF00EB1CA3 /* Default.png in Resources */,
 				EB659420184D4F8E008CAFA5 /* InfoPlist.strings in Resources */,
 				EBA5584F18585ADF00EB1CA3 /* Icon-120.png in Resources */,
+				EB85D8121868E246008F43BF /* logo-nano.JPG in Resources */,
+				EB85D80F1868E1CE008F43BF /* logo-invert.png in Resources */,
 				EBA5585318585ADF00EB1CA3 /* pegasus.png in Resources */,
 				EBA5584C18585ADF00EB1CA3 /* Defaultold.png in Resources */,
 				EBA5584718585ADF00EB1CA3 /* AppIconFeather.png in Resources */,
@@ -348,7 +362,9 @@
 				EBA5584A18585ADF00EB1CA3 /* Default@2x.png in Resources */,
 				EBA5585018585ADF00EB1CA3 /* Icon-58.png in Resources */,
 				EBA5585418585ADF00EB1CA3 /* tvindy-alpha-logo.png in Resources */,
+				EB85D8141868E3AB008F43BF /* profile_eren_kiraz.png in Resources */,
 				EBA5585218585ADF00EB1CA3 /* iphone5.png in Resources */,
+				EB85D8101868E1CE008F43BF /* logo.JPG in Resources */,
 				EBA5584818585ADF00EB1CA3 /* aquabar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
