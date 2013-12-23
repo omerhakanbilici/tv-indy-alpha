@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		EB06E8B5185788EC00FC8038 /* ShowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06E8B4185788EC00FC8038 /* ShowsViewController.m */; };
+		EB5B1BA5185C4D2500C522D0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BA4185C4D2500C522D0 /* Parse.framework */; };
+		EB5B1BA7185C4DF700C522D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BA6185C4DF700C522D0 /* AudioToolbox.framework */; };
+		EB5B1BA9185C4E0100C522D0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BA8185C4E0100C522D0 /* CFNetwork.framework */; };
+		EB5B1BAB185C4E1800C522D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BAA185C4E1800C522D0 /* CoreLocation.framework */; };
+		EB5B1BAD185C4E2C00C522D0 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BAC185C4E2C00C522D0 /* libz.1.1.3.dylib */; };
+		EB5B1BAF185C4E3500C522D0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BAE185C4E3500C522D0 /* MobileCoreServices.framework */; };
+		EB5B1BB1185C4E3E00C522D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BB0185C4E3E00C522D0 /* QuartzCore.framework */; };
+		EB5B1BB3185C4E4900C522D0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BB2185C4E4900C522D0 /* Security.framework */; };
+		EB5B1BB5185C4E5200C522D0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BB4185C4E5200C522D0 /* StoreKit.framework */; };
+		EB5B1BB7185C4E5B00C522D0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5B1BB6185C4E5B00C522D0 /* SystemConfiguration.framework */; };
 		EB659416184D4F8E008CAFA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB659415184D4F8E008CAFA5 /* Foundation.framework */; };
 		EB659418184D4F8E008CAFA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB659417184D4F8E008CAFA5 /* CoreGraphics.framework */; };
 		EB65941A184D4F8E008CAFA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB659419184D4F8E008CAFA5 /* UIKit.framework */; };
@@ -53,6 +63,16 @@
 /* Begin PBXFileReference section */
 		EB06E8B3185788EC00FC8038 /* ShowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowsViewController.h; path = ../ShowsViewController.h; sourceTree = "<group>"; };
 		EB06E8B4185788EC00FC8038 /* ShowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowsViewController.m; path = ../ShowsViewController.m; sourceTree = "<group>"; };
+		EB5B1BA4185C4D2500C522D0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EB5B1BA6185C4DF700C522D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EB5B1BA8185C4E0100C522D0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EB5B1BAA185C4E1800C522D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EB5B1BAC185C4E2C00C522D0 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		EB5B1BAE185C4E3500C522D0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EB5B1BB0185C4E3E00C522D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EB5B1BB2185C4E4900C522D0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EB5B1BB4185C4E5200C522D0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EB5B1BB6185C4E5B00C522D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB659412184D4F8E008CAFA5 /* TV-INDY-Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV-INDY-Alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB659415184D4F8E008CAFA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB659417184D4F8E008CAFA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -97,8 +117,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5B1BA7185C4DF700C522D0 /* AudioToolbox.framework in Frameworks */,
+				EB5B1BA9185C4E0100C522D0 /* CFNetwork.framework in Frameworks */,
 				EB659418184D4F8E008CAFA5 /* CoreGraphics.framework in Frameworks */,
+				EB5B1BAB185C4E1800C522D0 /* CoreLocation.framework in Frameworks */,
+				EB5B1BAD185C4E2C00C522D0 /* libz.1.1.3.dylib in Frameworks */,
+				EB5B1BAF185C4E3500C522D0 /* MobileCoreServices.framework in Frameworks */,
+				EB5B1BB1185C4E3E00C522D0 /* QuartzCore.framework in Frameworks */,
+				EB5B1BB3185C4E4900C522D0 /* Security.framework in Frameworks */,
+				EB5B1BB5185C4E5200C522D0 /* StoreKit.framework in Frameworks */,
+				EB5B1BB7185C4E5B00C522D0 /* SystemConfiguration.framework in Frameworks */,
 				EB65941A184D4F8E008CAFA5 /* UIKit.framework in Frameworks */,
+				EB5B1BA5185C4D2500C522D0 /* Parse.framework in Frameworks */,
 				EB659416184D4F8E008CAFA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +169,16 @@
 		EB659414184D4F8E008CAFA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB5B1BB6185C4E5B00C522D0 /* SystemConfiguration.framework */,
+				EB5B1BB4185C4E5200C522D0 /* StoreKit.framework */,
+				EB5B1BB2185C4E4900C522D0 /* Security.framework */,
+				EB5B1BB0185C4E3E00C522D0 /* QuartzCore.framework */,
+				EB5B1BAE185C4E3500C522D0 /* MobileCoreServices.framework */,
+				EB5B1BAC185C4E2C00C522D0 /* libz.1.1.3.dylib */,
+				EB5B1BAA185C4E1800C522D0 /* CoreLocation.framework */,
+				EB5B1BA8185C4E0100C522D0 /* CFNetwork.framework */,
+				EB5B1BA6185C4DF700C522D0 /* AudioToolbox.framework */,
+				EB5B1BA4185C4D2500C522D0 /* Parse.framework */,
 				EB659415184D4F8E008CAFA5 /* Foundation.framework */,
 				EB659417184D4F8E008CAFA5 /* CoreGraphics.framework */,
 				EB659419184D4F8E008CAFA5 /* UIKit.framework */,
@@ -460,6 +500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/omerhakanbilici/Documents/Xcode/TV-INDY-Alpha",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TV-INDY-Alpha/TV-INDY-Alpha-Prefix.pch";
 				INFOPLIST_FILE = "TV-INDY-Alpha/TV-INDY-Alpha-Info.plist";
@@ -473,6 +517,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/omerhakanbilici/Documents/Xcode/TV-INDY-Alpha",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TV-INDY-Alpha/TV-INDY-Alpha-Prefix.pch";
 				INFOPLIST_FILE = "TV-INDY-Alpha/TV-INDY-Alpha-Info.plist";

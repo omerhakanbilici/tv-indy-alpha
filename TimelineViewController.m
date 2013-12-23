@@ -27,6 +27,11 @@
 {
     [super viewDidLoad];
     
+    //about parse framework object
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    [testObject setObject:@"bar" forKey:@"foo"];
+    [testObject save];
+    
     // Enabled monitoring of the sensor
     UIDevice *device = [UIDevice currentDevice];
     device.proximityMonitoringEnabled = YES;
@@ -42,6 +47,25 @@
     else NSLog(@"Proximity Monitoring Not-Enabled!");
     
 }
+
+//todo learn how to disabled proximity monitoring
+//- (void)viewDidAppear:(BOOL)animated{
+//
+//    // Enabled monitoring of the sensor
+//    UIDevice *device = [UIDevice currentDevice];
+//    device.proximityMonitoringEnabled = YES;
+//    
+//    if (device.proximityMonitoringEnabled==YES) {
+//        NSLog(@"Proximity Monitoring Enabled.");
+//        
+//        // Proximity Sensor Notification
+//        [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                 selector:@selector(proximityChanged:) name:@"UIDeviceProximityStateDidChangeNotification"
+//                                                   object:device];
+//    }
+//    else NSLog(@"Proximity Monitoring Not-Enabled!");
+//    
+//}
 
 //Can't work with simulator. Poor man's developer.
 - (void) proximityChanged:(NSNotification *)notification {
@@ -86,15 +110,15 @@
 //    return 0;
 //}
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    static NSString *CellIdentifier = @"Cell";
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+//    
+//    // Configure the cell...
+//    
+//    return cell;
+//}
 
 - (IBAction) performCheckIn:(id)sender {
     
