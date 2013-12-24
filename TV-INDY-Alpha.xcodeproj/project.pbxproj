@@ -37,6 +37,9 @@
 		EB85D8101868E1CE008F43BF /* logo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EB85D80E1868E1CE008F43BF /* logo.JPG */; };
 		EB85D8121868E246008F43BF /* logo-nano.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EB85D8111868E246008F43BF /* logo-nano.JPG */; };
 		EB85D8141868E3AB008F43BF /* profile_eren_kiraz.png in Resources */ = {isa = PBXBuildFile; fileRef = EB85D8131868E3AB008F43BF /* profile_eren_kiraz.png */; };
+		EB85D81618696FFF008F43BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB85D81518696FFF008F43BF /* CoreData.framework */; };
+		EB85D81918697060008F43BF /* TvIndyStaticResources.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB85D81718697060008F43BF /* TvIndyStaticResources.xcdatamodeld */; };
+		EB85D81C18697224008F43BF /* PageResource.m in Sources */ = {isa = PBXBuildFile; fileRef = EB85D81B18697224008F43BF /* PageResource.m */; };
 		EBA5584718585ADF00EB1CA3 /* AppIconFeather.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5583918585ADF00EB1CA3 /* AppIconFeather.png */; };
 		EBA5584818585ADF00EB1CA3 /* aquabar.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5583A18585ADF00EB1CA3 /* aquabar.png */; };
 		EBA5584918585ADF00EB1CA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5583B18585ADF00EB1CA3 /* Default.png */; };
@@ -102,6 +105,10 @@
 		EB85D80E1868E1CE008F43BF /* logo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.JPG; sourceTree = "<group>"; };
 		EB85D8111868E246008F43BF /* logo-nano.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-nano.JPG"; sourceTree = "<group>"; };
 		EB85D8131868E3AB008F43BF /* profile_eren_kiraz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_eren_kiraz.png; sourceTree = "<group>"; };
+		EB85D81518696FFF008F43BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB85D81818697060008F43BF /* TvIndyStaticResources.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TvIndyStaticResources.xcdatamodel; sourceTree = "<group>"; };
+		EB85D81A18697224008F43BF /* PageResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageResource.h; sourceTree = "<group>"; };
+		EB85D81B18697224008F43BF /* PageResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageResource.m; sourceTree = "<group>"; };
 		EBA5583918585ADF00EB1CA3 /* AppIconFeather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconFeather.png; sourceTree = "<group>"; };
 		EBA5583A18585ADF00EB1CA3 /* aquabar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquabar.png; sourceTree = "<group>"; };
 		EBA5583B18585ADF00EB1CA3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -125,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB85D81618696FFF008F43BF /* CoreData.framework in Frameworks */,
 				EB5B1BA7185C4DF700C522D0 /* AudioToolbox.framework in Frameworks */,
 				EB5B1BA9185C4E0100C522D0 /* CFNetwork.framework in Frameworks */,
 				EB659418184D4F8E008CAFA5 /* CoreGraphics.framework in Frameworks */,
@@ -177,6 +185,7 @@
 		EB659414184D4F8E008CAFA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB85D81518696FFF008F43BF /* CoreData.framework */,
 				EB5B1BB6185C4E5B00C522D0 /* SystemConfiguration.framework */,
 				EB5B1BB4185C4E5200C522D0 /* StoreKit.framework */,
 				EB5B1BB2185C4E4900C522D0 /* Security.framework */,
@@ -211,6 +220,9 @@
 				EBAAF32C1854ACF500E15E12 /* CheckInViewController.m */,
 				EB65942D184D4F8E008CAFA5 /* Images.xcassets */,
 				EB65941C184D4F8E008CAFA5 /* Supporting Files */,
+				EB85D81718697060008F43BF /* TvIndyStaticResources.xcdatamodeld */,
+				EB85D81A18697224008F43BF /* PageResource.h */,
+				EB85D81B18697224008F43BF /* PageResource.m */,
 			);
 			path = "TV-INDY-Alpha";
 			sourceTree = "<group>";
@@ -388,7 +400,9 @@
 				EB06E8B5185788EC00FC8038 /* ShowsViewController.m in Sources */,
 				EB659426184D4F8E008CAFA5 /* AppDelegate.m in Sources */,
 				EB659422184D4F8E008CAFA5 /* main.m in Sources */,
+				EB85D81918697060008F43BF /* TvIndyStaticResources.xcdatamodeld in Sources */,
 				EBAAF32D1854ACF500E15E12 /* CheckInViewController.m in Sources */,
+				EB85D81C18697224008F43BF /* PageResource.m in Sources */,
 				EB8454E01853EDE4001FFAC5 /* TimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,6 +632,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB85D81718697060008F43BF /* TvIndyStaticResources.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB85D81818697060008F43BF /* TvIndyStaticResources.xcdatamodel */,
+			);
+			currentVersion = EB85D81818697060008F43BF /* TvIndyStaticResources.xcdatamodel */;
+			path = TvIndyStaticResources.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EB65940A184D4F8E008CAFA5 /* Project object */;
 }

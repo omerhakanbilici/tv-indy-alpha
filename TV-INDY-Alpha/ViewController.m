@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "PageResource.h"
+#import "AppDelegate.h"
 
 @interface NSURLRequest (DummyInterface)
 + (BOOL)allowsAnyHTTPSCertificateForHost:(NSString*)host;
@@ -14,6 +16,8 @@
 @end
 
 @interface ViewController ()
+
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 
 @end
 
@@ -25,6 +29,23 @@
 //    [self.navigationController setNavigationBarHidden:YES animated:YES];
     //todo credentials must be from db or social api
 //    credentialsDictionary = [[NSDictionary alloc] initWithObjects:[NSArray arrayWithObjects:@"0000", @"", nil] forKeys:[NSArray arrayWithObjects:@"hakan", @"", nil]];
+    
+    //1
+    AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
+    //2
+    self.managedObjectContext = appDelegate.managedObjectContext;
+    
+    //  1
+    PageResource * newEntry = [NSEntityDescription insertNewObjectForEntityForName:@"PageResource"
+                                                            inManagedObjectContext:self.managedObjectContext];
+    //  2
+    newEntry.checkInPageResource = @"Your Favourite Show:";
+    //  3
+//    NSError *error;
+//    if (![self.managedObjectContext save:&error]) {
+//        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+//    }
+
 }
 
 //- (IBAction) enterCredentials {
@@ -149,6 +170,17 @@
     else{
         NSLog(@"%d", [error code]);
     }
+}
+
+- (void)addCheckInPageResource:(id)sender
+{
+    // Add Entry to PageResource Database and reset all fields
+    
+        //  4
+    //    self.firstNameTextfield.text = @"";
+    
+    //  5
+    //    [self.view endEditing:YES];
 }
 
 

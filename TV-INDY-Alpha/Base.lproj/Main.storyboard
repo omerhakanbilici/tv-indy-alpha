@@ -530,6 +530,9 @@
                         </sections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Check-In" id="xaq-yr-YNd"/>
+                    <connections>
+                        <outlet property="pageFirstLabel" destination="9yB-TK-K0r" id="iVa-P5-atj"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MGo-jy-mZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1151,6 +1154,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="neZ-Xz-Yrs"/>
+        <segue reference="Yee-xW-MGe"/>
     </inferredMetricsTieBreakers>
 </document>

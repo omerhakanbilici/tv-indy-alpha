@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CheckInViewController : UITableViewController
+@interface CheckInViewController : UITableViewController {
+
+    UILabel *pageFirstLabel;
+    
+}
+@property (nonatomic, retain) IBOutlet UILabel *pageFirstLabel;
 
 @end

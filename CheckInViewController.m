@@ -7,12 +7,19 @@
 //
 
 #import "CheckInViewController.h"
+#import "AppDelegate.h"
+#import "PageResource.h"
 
 @interface CheckInViewController ()
+
+@property (nonatomic,strong)NSArray* fetchedRecordsArray;
 
 @end
 
 @implementation CheckInViewController
+
+@synthesize pageFirstLabel;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,6 +39,22 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+//    AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
+    ;
+    // Fetching Records and saving it in "fetchedRecordsArray" object
+//    self.fetchedRecordsArray = [appDelegate getCheckInPageResource];
+//    [self.tableView reloadData];
+    
+//    PageResource * newEntry = [NSEntityDescription insertNewObjectForEntityForName:@"PageResource"
+//                                                            inManagedObjectContext:appDelegate.managedObjectContext];
+//   
+//    newEntry.checkInPageResource = self.fetchedRecordsArray[0];
+    
+    pageFirstLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 100, 280, 100)];
+    pageFirstLabel.text = @"Your Favourite Show:";
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,6 +62,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 #pragma mark - Table view data source
 

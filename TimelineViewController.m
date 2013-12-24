@@ -28,9 +28,9 @@
     [super viewDidLoad];
     
     //about parse framework object
-    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-    [testObject setObject:@"bar" forKey:@"foo"];
-    [testObject save];
+//    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+//    [testObject setObject:@"bar" forKey:@"foo"];
+//    [testObject save];
     
     // Enabled monitoring of the sensor
     UIDevice *device = [UIDevice currentDevice];
